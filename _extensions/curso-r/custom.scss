@@ -9,14 +9,14 @@ $font-family-sans-serif: 'Montserrat', Tahoma, sans-serif !default;
 $presentation-heading-font: 'Arvo',  Tahoma, sans-serif  !default;
 $presentation-heading-color: #022038 !default;
 $h1-font-size: 45px !default;
-$h2-font-size: 1.3em !default;
-$h3-font-size: 1.15em !default;
+$h2-font-size: 40px !default;
+$h3-font-size: 35px !default;
 
 //code
 $code-color: #333 !default;
 $font-family-monospace: 'Source Code Pro', monospace  !default;
 
-// general  
+// general
 $body-bg: #fff;
 $body-color: #011627;
 $link-color: hotpink;
@@ -85,6 +85,7 @@ section.has-dark-background a, section.has-dark-background a:hover {
   right: 10px !important;
   top: unset !important;
   color: $body-color !important;
+  font-size: 20px !important;
 }
 
 .progress{
@@ -93,4 +94,30 @@ section.has-dark-background a, section.has-dark-background a:hover {
 
 i.fas.fa-bars{
   color: $presentation-heading-color !important;
+}
+
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+h3{
+  margin-top: 15px !important;
+}
+
+.reveal code {
+  background-color: rgb(229, 243, 255);
+}
+
+
+
+.reveal ::selection {
+  color: #202020;
+  background: #e9f2ff;
+  text-shadow: none;
 }
